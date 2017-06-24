@@ -1,0 +1,9 @@
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\bin\Debug\Clippy.exe.config
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\bin\Debug\Clippy.exe
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\bin\Debug\Clippy.pdb
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\obj\Debug\Clippy.csprojResolveAssemblyReference.cache
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\obj\Debug\Clippy.Form1.resources
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\obj\Debug\Clippy.Properties.Resources.resources
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\obj\Debug\Clippy.csproj.GenerateResource.Cache
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\obj\Debug\Clippy.exe
+c:\users\doug\documents\visual studio 2017\Projects\Clippy\Clippy\obj\Debug\Clippy.pdb

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Command++ IDE v0.1.2 Pre-Beta:
+RELEASE NOTES
+
+Features:
+• Added a "New Window" menu option under the File menu for easier editing of multiple functions at once.
+• For further multi-window support, the IDE now checks before updating to see whether there are any other Command++ windows open, and tells the user to close them if any exist.
+• This Release Notes window now has its own icon.
+
+Bugfixes:
+• Fixed a bug where the IDE crashed after the user aborted the opening of the update software (e.x. computer prompts for an administrator password and user clicks no)
+• Upon exiting the program, the IDE asks if you would like to save changes to the current file, even if one just saved.
+• Pressing "new" did not clear the file path, and saving after creating a new file would save over the previously edited file.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+</root>
